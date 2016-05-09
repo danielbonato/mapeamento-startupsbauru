@@ -67,6 +67,10 @@ if($task == "doedit") {
           <option<? if($place[type] == "investor") {?> selected="selected"<? } ?>>investor</option>
           <option<? if($place[type] == "service") {?> selected="selected"<? } ?>>service</option>
           <option<? if($place[type] == "hackerspace") {?> selected="selected"<? } ?>>hackerspace</option>
+          <option<? if($place[type] == "softwarehouse") {?> selected="selected"<? } ?>>softwarehouse</option>
+          <option<? if($place[type] == "agenciadigital") {?> selected="selected"<? } ?>>agenciadigital</option>
+          <option<? if($place[type] == "advogado") {?> selected="selected"<? } ?>>advogado</option>
+          <option<? if($place[type] == "contador") {?> selected="selected"<? } ?>>contador</option>
         </select>
       </div>
     </div>
